@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="Name"
+        android:key="name"
+        android:summary="Enter your Name"
+
+        />
+    <CheckBoxPreference
+        android:title="Sex"
+        android:key="sex"
+        android:summary="Check if Male"
+        />
+    <SwitchPreference
+        android:title="Age"
+        android:key="age"
+        android:summary="Your Age"
+        />
+</PreferenceScreen>
